@@ -23,12 +23,12 @@ variable "instance_type" {
 variable "alert_email_id" {
   description = "Email id to send alerts to "
   type        = string
-  default     = "you-name@some-domain.com"
+  default     = "philipwamai85@gmail.com"
 }
 
 ## Your repository url
 variable "repo_url" {
   description = "Repository url to clone into production machine"
   type        = string
-  default     = "https://github.com/josephmachado/data_engineering_project_template.git"
+  default     = "https://github.com/philip72/Data_engineering_with_AWS.git"
 }
